@@ -6,7 +6,7 @@
     const renderer = new THREE.WebGLRenderer({alfa: true});
     renderer.setSize( 40, 40);
     container.appendChild( renderer.domElement );
-    const geometry = new THREE.BoxGeometry( 2, 2, 2 );
+    const geometry = new THREE.BoxGeometry( 3, 3, 3 );
     const material = new THREE.MeshBasicMaterial( { color: 0xffffff } );
     const cube = new THREE.Mesh( geometry, material );
     scene.add( cube );

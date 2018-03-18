@@ -116,6 +116,6 @@
 .logo{
     position: absolute;
     mix-blend-mode: color-dodge;
-    right: 0;
-    top: 0;
+    right: 11px;
+    top: 11px;
 }
