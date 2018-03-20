@@ -108,8 +108,5 @@
         contextVolume.clearRect(0,0,contexVolimeWidth, 110);
         contextVolume.fillStyle = "rgba(255, 255, 255, 0.712)";
         contextVolume.fillRect(0, 0, audioProcessor.volume*contexVolimeWidth*1.5, 110);
-
-    }
-
-    
+    }    
 })();
